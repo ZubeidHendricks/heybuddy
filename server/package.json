@@ -1,0 +1,14 @@
+{
+  "name": "heybuddy-server",
+  "version": "1.0.0",
+  "description": "Real-time collaborative shopping platform - Server",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "test": "jest"
+  },
+  "keywords": ["shopping", "collaboration", "webrtc", "real-time"],
+  "author": "",
+  "license": "MIT"
+}

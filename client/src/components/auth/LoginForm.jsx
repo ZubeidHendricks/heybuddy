@@ -62,6 +62,9 @@ const LoginForm = () => {
               required
             />
           </div>
+          <div className="text-sm text-gray-600">
+            <a href="#" className="text-gray-600 hover:text-gray-900">Forgot Password?</a>
+          </div>
           <Button 
             type="submit" 
             className="w-full"

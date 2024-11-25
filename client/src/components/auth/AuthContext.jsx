@@ -35,6 +35,11 @@ export const AuthProvider = ({ children }) => {
     setUser(user);
   };
 
+  const checkUser = async () => {
+    const profile = await authService.getProfile();
+    setUser(profile);
+  };
+
   const logout = () => {
     authService.logout();
     setUser(null);

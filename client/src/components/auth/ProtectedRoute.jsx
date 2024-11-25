@@ -16,4 +16,4 @@ const ProtectedRoute = ({ children }) => {
   return children;
 };
 
-export { LoginForm, RegisterForm, ProtectedRoute };
+export { ProtectedRoute };
